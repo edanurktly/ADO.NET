@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaglantiCumlesi", "BaglantiCumlesi\BaglantiCumlesi.csproj", "{E9DD939C-F483-40D9-831D-47C24E8CB68F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaglantiCumlesi", "BaglantiCumlesi\BaglantiCumlesi.csproj", "{E9DD939C-F483-40D9-831D-47C24E8CB68F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selectt", "Selectt\Selectt.csproj", "{F771601C-8623-4B59-9E55-451DAD5299AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selectt", "Selectt\Selectt.csproj", "{F771601C-8623-4B59-9E55-451DAD5299AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insert", "insert\insert.csproj", "{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "insert", "insert\insert.csproj", "{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update_Delete", "Update_Delete\Update_Delete.csproj", "{C24F7A7D-4600-4272-B0D9-88C838F19C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnected1", "Disconnected1\Disconnected1.csproj", "{D1A5A8E7-5976-4D78-B402-ED4FFD103767}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24F7A7D-4600-4272-B0D9-88C838F19C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24F7A7D-4600-4272-B0D9-88C838F19C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24F7A7D-4600-4272-B0D9-88C838F19C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24F7A7D-4600-4272-B0D9-88C838F19C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A5A8E7-5976-4D78-B402-ED4FFD103767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A5A8E7-5976-4D78-B402-ED4FFD103767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A5A8E7-5976-4D78-B402-ED4FFD103767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A5A8E7-5976-4D78-B402-ED4FFD103767}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

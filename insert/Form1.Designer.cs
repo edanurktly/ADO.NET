@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -40,7 +41,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtAdi = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +64,16 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Calisan Kaydet";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(6, 261);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(231, 27);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Kaydet stored procedure ile kaydet";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -161,21 +171,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Adi:";
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(6, 261);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(231, 27);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Kaydet stored procedure ile kaydet";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 450);
+            this.ClientSize = new System.Drawing.Size(326, 404);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
