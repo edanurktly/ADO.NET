@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaglantiCumlesi", "BaglantiCumlesi\BaglantiCumlesi.csproj", "{E9DD939C-F483-40D9-831D-47C24E8CB68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selectt", "Selectt\Selectt.csproj", "{F771601C-8623-4B59-9E55-451DAD5299AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insert", "insert\insert.csproj", "{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9DD939C-F483-40D9-831D-47C24E8CB68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DD939C-F483-40D9-831D-47C24E8CB68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DD939C-F483-40D9-831D-47C24E8CB68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DD939C-F483-40D9-831D-47C24E8CB68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F771601C-8623-4B59-9E55-451DAD5299AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F771601C-8623-4B59-9E55-451DAD5299AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F771601C-8623-4B59-9E55-451DAD5299AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F771601C-8623-4B59-9E55-451DAD5299AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF1B8F5B-9D40-4DF5-9256-92A2BD8FA43D}
+	EndGlobalSection
+EndGlobal
