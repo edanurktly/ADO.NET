@@ -43,7 +43,7 @@ namespace iliskili_kayitlar
             string sql=@"Select od.OrderId,p.ProductName,od.UnitPrice,od.Quantity,
                            (od.UnitPrice*od.Quantity) as ToplamTutar
                           from [Order Details] od
-                     inner join Products p on p.PoductId=od.ProductId
+                     inner join Products p on p.ProductId=od.ProductId
                      where OrderId=" + id.ToString() ;
 
             GridDoldur(sql, dataGridView3);
