@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selectt", "Selectt\Selectt.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "insert", "insert\insert.csproj", "{24A700EB-9A21-4E2D-9803-06C1DF6D5FA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update_Delete", "Update_Delete\Update_Delete.csproj", "{C24F7A7D-4600-4272-B0D9-88C838F19C3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Update_Delete", "Update_Delete\Update_Delete.csproj", "{C24F7A7D-4600-4272-B0D9-88C838F19C3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnected1", "Disconnected1\Disconnected1.csproj", "{D1A5A8E7-5976-4D78-B402-ED4FFD103767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disconnected1", "Disconnected1\Disconnected1.csproj", "{D1A5A8E7-5976-4D78-B402-ED4FFD103767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iliskili_kayitlar", "iliskili_kayitlar\iliskili_kayitlar.csproj", "{D0E6C6D7-19AB-4219-93A8-3A124EAF11CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D1A5A8E7-5976-4D78-B402-ED4FFD103767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A5A8E7-5976-4D78-B402-ED4FFD103767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A5A8E7-5976-4D78-B402-ED4FFD103767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E6C6D7-19AB-4219-93A8-3A124EAF11CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E6C6D7-19AB-4219-93A8-3A124EAF11CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E6C6D7-19AB-4219-93A8-3A124EAF11CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E6C6D7-19AB-4219-93A8-3A124EAF11CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
